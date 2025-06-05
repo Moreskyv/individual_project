@@ -595,3 +595,15 @@ section .container {
     40% { transform: translateY(-20px); }
     60% { transform: translateY(-10px); }
 }
+
+.intro-image img,
+.goals-image img,
+.values-chart img,
+.family-image img,
+.conclusion-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #d4af37;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
